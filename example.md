@@ -25,7 +25,7 @@ how RDL can be utilized in various situations.</p>
 - Base Offset: 0x0
 - Size: 0x4
 
-<p>This register cotains the part # and revision # for XYZ ASIC</p>
+<p>This register contains the part # and revision # for XYZ ASIC</p>
 
 |Bits|Identifier|Access|  Reset  |Name|
 |----|----------|------|---------|----|
@@ -34,11 +34,11 @@ how RDL can be utilized in various situations.</p>
 
 #### rev_num field
 
-<p>This field represents the chips revision number</p>
+<p>This field represents the chip;s revision number</p>
 
 #### part_num field
 
-<p>This field represents the chips part number</p>
+<p>This field represents the chip's part number</p>
 
 ### enable register
 

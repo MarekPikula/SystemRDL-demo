@@ -6,18 +6,18 @@ addrmap some_register_map {
 
   reg {
     name = "This chip part number and revision #";
-    desc = "This register cotains the part # and revision # for XYZ ASIC";
+    desc = "This register contains the part # and revision # for XYZ ASIC";
 
     field {
       hw   = w;
       sw   = r;
-      desc = "This field represents the chips part number";
+      desc = "This field represents the chip's part number";
     } part_num[31:4] = 28'h12_34_56_7;
 
     field {
       hw   = na;
       sw   = r;
-      desc = "This field represents the chips revision number";
+      desc = "This field represents the chip;s revision number";
     } rev_num[3:0] = 4'b00_01;
   } chip_id_reg @ 0x0;
 

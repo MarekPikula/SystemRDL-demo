@@ -19,12 +19,12 @@ how RDL can be utilized in various situations.</ipxact:description>
         <ipxact:register>
           <ipxact:name>chip_id_reg</ipxact:name>
           <ipxact:displayName>This chip part number and revision #</ipxact:displayName>
-          <ipxact:description>This register cotains the part # and revision # for XYZ ASIC</ipxact:description>
+          <ipxact:description>This register contains the part # and revision # for XYZ ASIC</ipxact:description>
           <ipxact:addressOffset>'h0</ipxact:addressOffset>
           <ipxact:size>32</ipxact:size>
           <ipxact:field>
             <ipxact:name>rev_num</ipxact:name>
-            <ipxact:description>This field represents the chips revision number</ipxact:description>
+            <ipxact:description>This field represents the chip;s revision number</ipxact:description>
             <ipxact:bitOffset>0</ipxact:bitOffset>
             <ipxact:resets>
               <ipxact:reset>
@@ -36,7 +36,7 @@ how RDL can be utilized in various situations.</ipxact:description>
           </ipxact:field>
           <ipxact:field>
             <ipxact:name>part_num</ipxact:name>
-            <ipxact:description>This field represents the chips part number</ipxact:description>
+            <ipxact:description>This field represents the chip's part number</ipxact:description>
             <ipxact:bitOffset>4</ipxact:bitOffset>
             <ipxact:resets>
               <ipxact:reset>

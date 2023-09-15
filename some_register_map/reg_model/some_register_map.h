@@ -14,7 +14,7 @@ Field definition for: some_register_map_chip_id_reg_rev_num
 +==============+=========================================================================+
 | Description  | .. raw:: html                                                           |
 |              |                                                                         |
-|              |      <p>This field represents the chips revision number</p>             |
+|              |      <p>This field represents the chip;s revision number</p>            |
 +--------------+-------------------------------------------------------------------------+
 ------------------------------------------------------------------------------------------------ */
 #define DEF_SOME_REGISTER_MAP_CHIP_ID_REG_REV_NUM_LSB 0U
@@ -36,7 +36,7 @@ Field definition for: some_register_map_chip_id_reg_part_num
 +==============+=========================================================================+
 | Description  | .. raw:: html                                                           |
 |              |                                                                         |
-|              |      <p>This field represents the chips part number</p>                 |
+|              |      <p>This field represents the chip's part number</p>                |
 +--------------+-------------------------------------------------------------------------+
 ------------------------------------------------------------------------------------------------ */
 #define DEF_SOME_REGISTER_MAP_CHIP_ID_REG_PART_NUM_LSB 4U
@@ -62,7 +62,7 @@ Register definition for: some_register_map_chip_id_reg
 +--------------+-------------------------------------------------------------------------+
 | Description  | .. raw:: html                                                           |
 |              |                                                                         |
-|              |      <p>This register cotains the part # and revision # for XYZ         |
+|              |      <p>This register contains the part # and revision # for XYZ        |
 |              |      ASIC</p>                                                           |
 +--------------+-------------------------------------------------------------------------+
 ------------------------------------------------------------------------------------------------ */

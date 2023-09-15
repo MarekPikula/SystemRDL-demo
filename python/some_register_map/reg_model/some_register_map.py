@@ -62,7 +62,7 @@ class some_register_map_chip_id_reg_rev_num_cls(FieldReadOnly):
     +==============+=========================================================================+
     | Description  | .. raw:: html                                                           |
     |              |                                                                         |
-    |              |      <p>This field represents the chips revision number</p>             |
+    |              |      <p>This field represents the chip;s revision number</p>            |
     +--------------+-------------------------------------------------------------------------+
     """
 
@@ -82,7 +82,7 @@ class some_register_map_chip_id_reg_part_num_cls(FieldReadOnly):
     +==============+=========================================================================+
     | Description  | .. raw:: html                                                           |
     |              |                                                                         |
-    |              |      <p>This field represents the chips part number</p>                 |
+    |              |      <p>This field represents the chip's part number</p>                |
     +--------------+-------------------------------------------------------------------------+
     """
 
@@ -104,7 +104,7 @@ class some_register_map_chip_id_reg_cls(RegReadOnly):
     +--------------+-------------------------------------------------------------------------+
     | Description  | .. raw:: html                                                           |
     |              |                                                                         |
-    |              |      <p>This register cotains the part # and revision # for XYZ         |
+    |              |      <p>This register contains the part # and revision # for XYZ        |
     |              |      ASIC</p>                                                           |
     +--------------+-------------------------------------------------------------------------+
     """
@@ -192,7 +192,7 @@ class some_register_map_chip_id_reg_cls(RegReadOnly):
         +==============+=========================================================================+
         | Description  | .. raw:: html                                                           |
         |              |                                                                         |
-        |              |      <p>This field represents the chips revision number</p>             |
+        |              |      <p>This field represents the chip;s revision number</p>            |
         +--------------+-------------------------------------------------------------------------+
         """
         return self.__rev_num
@@ -208,7 +208,7 @@ class some_register_map_chip_id_reg_cls(RegReadOnly):
         +==============+=========================================================================+
         | Description  | .. raw:: html                                                           |
         |              |                                                                         |
-        |              |      <p>This field represents the chips part number</p>                 |
+        |              |      <p>This field represents the chip's part number</p>                |
         +--------------+-------------------------------------------------------------------------+
         """
         return self.__part_num
@@ -421,7 +421,7 @@ class some_register_map_cls(AddressMap):
         +--------------+-------------------------------------------------------------------------+
         | Description  | .. raw:: html                                                           |
         |              |                                                                         |
-        |              |      <p>This register cotains the part # and revision # for XYZ         |
+        |              |      <p>This register contains the part # and revision # for XYZ        |
         |              |      ASIC</p>                                                           |
         +--------------+-------------------------------------------------------------------------+
         """
