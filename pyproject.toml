@@ -14,6 +14,7 @@ desyrdl = "^1.2.2"
 peakrdl-python-simple = "^0.2.13"
 peakrdl-markdown = "^0.1.6"
 peakrdl-python = "^0.6.4"
+peakrdl-halcpp = "^0.3.5"
 
 
 [build-system]

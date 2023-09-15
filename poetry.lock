@@ -211,6 +211,21 @@ peakrdl-uvm = ">=2.3.0,<3"
 systemrdl-compiler = ">=1.26.0,<2"
 
 [[package]]
+name = "peakrdl-halcpp"
+version = "0.3.5"
+description = "Generate CPP Hardware Abstraction Layer libraries"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "peakrdl-halcpp-0.3.5.tar.gz", hash = "sha256:c2563282e571f19e90994b582e5fe5eb255f55af40db2a61446154139d634b18"},
+]
+
+[package.dependencies]
+Jinja2 = ">=3.0.0"
+systemrdl-compiler = ">=1.25.0"
+
+[[package]]
 name = "peakrdl-html"
 version = "2.10.1"
 description = "HTML documentation generator for SystemRDL-based register models"
@@ -436,4 +451,4 @@ markdown = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "4c6ef2121740bb331a5a43d32bd5a3c74829a325a660c0248b4a545d0d7d4ddb"
+content-hash = "bc58453343a6fccf8cbbabcf9f7afee2427a925453490ff92ec354f185dd740e"
