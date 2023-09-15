@@ -1,0 +1,4 @@
+/home/marek-pikula/Projects/Private/systemrdl-demo/vhdl/vhdl/desyrdl/pkg_desyrdl_common.vhd
+/home/marek-pikula/Projects/Private/systemrdl-demo/vhdl/vhdl/some_register_map/pkg_some_register_map.vhd
+/home/marek-pikula/Projects/Private/systemrdl-demo/vhdl/vhdl/some_register_map/some_register_map_decoder_axi4l.vhd
+/home/marek-pikula/Projects/Private/systemrdl-demo/vhdl/vhdl/some_register_map/some_register_map.vhd

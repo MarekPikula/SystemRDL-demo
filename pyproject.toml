@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "systemrdl-demo"
+version = "0.1.0"
+description = ""
+authors = ["Marek Pikuła <marek@serenitycode.dev>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "systemrdl_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+peakrdl = "^0.9.0"
+desyrdl = "^1.2.2"
+peakrdl-python-simple = "^0.2.13"
+peakrdl-markdown = "^0.1.6"
+peakrdl-python = "^0.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
